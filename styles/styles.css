@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+/* banner section styles */
+.banner {
+  margin: 0 auto;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  background-image: url(../media/images/Banner\ Image.png),linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  font-family: 'Merriweather' ;
+  text-align: center;
+  color: white;
+  
+}
+
+
+
+.banner h4 {
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.banner h1{
+  font-size: 72px;
+  font-weight: 900;
+  margin: 0;
+}
+
+/* Sales Section Styles */
+
+.sales {
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sales h1,h3{
+  color: red;
+
+}
+
+.sales h1 {
+  margin-top: 120px;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.sales h3{
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+} 
+
+.sales h2{
+color: rgb(7, 2, 17);
+font-size: 48px;
+font-weight: 700;
+margin-top: 16px;
+margin-bottom: 48px;
+}
+
+.sales img{
+  width:803px ;
+  height: 500px;
+}
